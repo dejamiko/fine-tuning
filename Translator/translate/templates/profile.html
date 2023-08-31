@@ -1,0 +1,27 @@
+{% extends 'base_content.html' %}
+{% block title %} | Profile{% endblock %}
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-6 offset-md-3">
+            <h1>User profile</h1>
+            <p>Username: {{ user.username }}</p>
+            <p>Email: {{ user.email }}</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 col-md-8 offset-md-2 translation-box">
+            <!--Print all related translations-->
+            <div class="translation-item">
+                <h4>History of translations:</h4>
+            </div>
+
+            {% for translation in translations %}
+            <div class="translation-item">
+                <a class="text" href="{% url 'home' %}?translation={{translation.pk}}">{{ translation.text_display }} -> {{ translation.translated_text_display }}</a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,42 @@
+.form-box {
+    background-color: #141414;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    border-radius: 15px;
+}
+
+.form-button {
+    background-color: #6D1DBC;
+    border-color: #6D1DBC;
+    color: #FBF6FF;
+}
+
+.form-button:hover {
+    background-color: #5f1aa3;
+    border-color: #5f1aa3;
+    color: #FBF6FF;
+}
+
+.form-button:active {
+    background-color: #551791;
+    border-color: #551791;
+    color: #FBF6FF;
+}
+
+.translation-box {
+    background-color: #141414;
+    padding: 2%;
+    border-radius: 15px;
+}
+
+.translation-item {
+    background-color: #282828;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.translation-item:hover {
+    background-color: #3a3a3a;
+}

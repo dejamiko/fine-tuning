@@ -1,0 +1,50 @@
+[
+  {
+    "model": "translate.translation",
+    "pk": 2,
+    "fields": {
+      "text": "Witaj świecie!",
+      "input_language": "Polish",
+      "translated_text": "Hello world!",
+      "user": 1,
+      "created_at": "2023-02-14T12:00:00Z",
+      "updated_at": "2023-02-14T13:00:00Z"
+    }
+  },
+  {
+    "model": "translate.translation",
+    "pk": 3,
+    "fields": {
+      "text": "My name is Mikolaj and I like flowers.",
+      "input_language": "English",
+      "translated_text": "Nazywam się Mikolaj i lubię kwiaty.",
+      "user": 2,
+      "created_at": "2023-02-14T12:00:00Z",
+      "updated_at": "2023-02-14T15:00:00Z"
+    }
+  },
+  {
+    "model": "translate.translation",
+    "pk": 4,
+    "fields": {
+      "text": "Mój ulubiony kolor to czerwony. Jest to kolor miłości i zazdrości.",
+      "input_language": "Polish",
+      "translated_text": "My favorite color is red. It is the color of love and jealousy.",
+      "user": 2,
+      "created_at": "2023-02-14T12:00:00Z",
+      "updated_at": "2023-02-14T16:00:00Z"
+    }
+  },
+  {
+    "model": "translate.translation",
+    "pk": 5,
+    "fields": {
+      "text": "This is a very long text. It is long enough that it needs to be shortened to be displayed.",
+      "input_language": "English",
+      "translated_text": "To jest bardzo długi tekst. Jest wystarczająco długi, aby musiał zostać skrócony, aby został wyświetlony.",
+      "user": 1,
+      "created_at": "2023-02-14T12:00:00Z",
+      "updated_at": "2023-02-14T18:00:00Z"
+    }
+  }
+]

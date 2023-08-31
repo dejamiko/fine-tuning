@@ -1,0 +1,15 @@
+<!--This code was adapted from the 5CCS2SEG project Chess Club-->
+
+{% if messages %}
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            {% for message in messages %}
+            <div class="alert alert-{{ message.level_tag }}" role="alert">
+                {{ message }}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endif %}
