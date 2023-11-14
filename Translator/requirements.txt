@@ -1,4 +1,4 @@
-Django==4.1.10
+Django==4.1.13
 django-widget-tweaks==1.4.12
 django-extensions==3.2.1
 transformers==4.30.0
